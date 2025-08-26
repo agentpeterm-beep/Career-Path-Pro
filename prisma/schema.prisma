@@ -1,0 +1,158 @@
+generator client {
+    provider = "prisma-client-js"
+    binaryTargets = ["native", "linux-musl-arm64-openssl-3.0.x"]
+    output = "/home/ubuntu/career_guidance_app/app/node_modules/.prisma/client"
+}
+
+datasource db {
+    provider = "postgresql"
+    url      = env("DATABASE_URL")
+}
+
+// User authentication and profile management
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.Text
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model User {
+  id                    String            @id @default(cuid())
+  name                  String?
+  email                 String            @unique
+  emailVerified         DateTime?
+  image                 String?
+  password              String
+  location              String?
+  industry              String?
+  experienceLevel       String?
+  subscriptionTier      String            @default("free") // free, basic, premium
+  subscriptionStatus    String            @default("inactive") // inactive, active, past_due, canceled
+  subscriptionExpires   DateTime?
+  
+  // Stripe integration
+  stripeCustomerId      String?
+  subscriptionId        String?
+  
+  // Notification preferences
+  emailNotifications    Boolean           @default(true)
+  marketingEmails       Boolean           @default(false)
+  weeklyDigest          Boolean           @default(true)
+  instantAlerts         Boolean           @default(false)
+  
+  createdAt             DateTime          @default(now())
+  updatedAt             DateTime          @updatedAt
+  
+  accounts              Account[]
+  sessions              Session[]
+  savedResources        SavedResource[]
+  searchQueries         SearchQuery[]
+  userInterests         UserInterest[]
+  supportTickets        SupportTicket[]
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
+
+// Core resource management
+model Resource {
+  id                String            @id @default(cuid())
+  title             String
+  description       String            @db.Text
+  website           String?
+  phone             String?
+  address           String?
+  city              String?
+  state             String?
+  zipCode           String?
+  resourceType      String            // job_search, training, business, certification, etc.
+  industry          String?
+  contactEmail      String?
+  tags              String[]          // For AI matching: ["remote work", "tech jobs", "entry level"]
+  isNational        Boolean           @default(false)
+  isActive          Boolean           @default(true)
+  createdAt         DateTime          @default(now())
+  updatedAt         DateTime          @updatedAt
+  
+  savedBy           SavedResource[]
+}
+
+// User saved resources
+model SavedResource {
+  id           String   @id @default(cuid())
+  userId       String
+  resourceId   String
+  savedAt      DateTime @default(now())
+  notes        String?  // User's personal notes about the resource
+  
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  resource     Resource @relation(fields: [resourceId], references: [id], onDelete: Cascade)
+  
+  @@unique([userId, resourceId])
+}
+
+// User interests for personalization
+model UserInterest {
+  id           String   @id @default(cuid())
+  userId       String
+  interest     String   // e.g., "software engineering", "small business", "healthcare"
+  priority     Int      @default(1) // 1-5 priority level
+  createdAt    DateTime @default(now())
+  
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+// Search query tracking for analytics and improvement
+model SearchQuery {
+  id           String   @id @default(cuid())
+  userId       String?  // Optional - can track anonymous queries too
+  query        String
+  resultsCount Int      @default(0)
+  timestamp    DateTime @default(now())
+  wasHelpful   Boolean? // User feedback on results
+  
+  user         User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+}
+
+// Support ticket system
+model SupportTicket {
+  id           String   @id @default(cuid())
+  userId       String
+  subject      String
+  category     String   @default("general") // general, technical, billing, feedback
+  message      String   @db.Text
+  priority     String   @default("medium") // low, medium, high, urgent
+  status       String   @default("open") // open, in_progress, resolved, closed
+  response     String?  @db.Text
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  resolvedAt   DateTime?
+  
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}

@@ -1,0 +1,416 @@
+[
+  {
+    "title": "Indeed",
+    "description": "Leading job search website with millions of job listings from companies and job boards across the web. Offers resume posting, company reviews, and salary information.",
+    "website": "https://www.indeed.com",
+    "phone": "800-462-4237",
+    "address": "6433 Champion Grandview Way Bldgs I & II, Austin, TX 78750",
+    "resource_type": "Job Search Website",
+    "tags": ["job_search", "employment", "career", "resume", "job_board"]
+  },
+  {
+    "title": "LinkedIn Jobs",
+    "description": "Professional networking platform with integrated job search functionality, company pages, and professional development resources.",
+    "website": "https://www.linkedin.com/jobs",
+    "phone": "650-687-3600",
+    "address": "1000 W Maude Ave, Sunnyvale, CA 94085",
+    "resource_type": "Job Search Website",
+    "tags": ["job_search", "professional_networking", "career", "linkedin", "networking"]
+  },
+  {
+    "title": "Glassdoor",
+    "description": "Job search platform featuring company reviews, salary information, interview insights, and workplace culture ratings from employees.",
+    "website": "https://www.glassdoor.com",
+    "phone": "415-339-9105",
+    "address": "100 Shoreline Highway, Mill Valley, CA 94941",
+    "resource_type": "Job Search Website",
+    "tags": ["job_search", "company_reviews", "salary", "career", "workplace_culture"]
+  },
+  {
+    "title": "Monster",
+    "description": "Global employment website for job seekers and employers. Provides job listings, career advice, resume services, and recruitment solutions.",
+    "website": "https://www.monster.com",
+    "phone": "800-666-7837",
+    "address": "133 Boston Post Road, Weston, MA 02493",
+    "resource_type": "Job Search Website",
+    "tags": ["job_search", "employment", "career_advice", "resume_services", "recruitment"]
+  },
+  {
+    "title": "CareerBuilder",
+    "description": "Employment website providing job listings, resume database, and human capital solutions for employers and job seekers.",
+    "website": "https://www.careerbuilder.com",
+    "phone": "877-345-5256",
+    "address": "200 N La Salle St, Suite 1100, Chicago, IL 60601",
+    "resource_type": "Job Search Website",
+    "tags": ["job_search", "employment", "human_resources", "career", "job_board"]
+  },
+  {
+    "title": "ZipRecruiter",
+    "description": "AI-powered job matching platform connecting job seekers with employers through smart matching technology and mobile-friendly applications.",
+    "website": "https://www.ziprecruiter.com",
+    "phone": "877-252-1062",
+    "address": "604 Arizona Ave, Santa Monica, CA 90401",
+    "resource_type": "Job Search Website",
+    "tags": ["job_search", "ai_matching", "mobile_friendly", "employment", "career"]
+  },
+  {
+    "title": "SimplyHired",
+    "description": "Job search engine aggregating listings from job boards, newspapers, associations, and company career pages.",
+    "website": "https://www.simplyhired.com",
+    "phone": "650-440-1600",
+    "address": "2 West 5th Ave, San Mateo, CA 94402",
+    "resource_type": "Job Search Website",
+    "tags": ["job_search", "job_aggregator", "employment", "career", "job_listings"]
+  },
+  {
+    "title": "FlexJobs",
+    "description": "Curated job board specializing in remote, part-time, freelance, and flexible schedule job opportunities across various industries.",
+    "website": "https://www.flexjobs.com",
+    "phone": "303-779-1777",
+    "address": "699 8th St, Boulder, CO 80302",
+    "resource_type": "Job Search Website",
+    "tags": ["remote_work", "flexible_jobs", "part_time", "freelance", "work_life_balance"]
+  },
+  {
+    "title": "Dice",
+    "description": "Technology-focused job board and career community connecting tech professionals with employers seeking IT talent.",
+    "website": "https://www.dice.com",
+    "phone": "515-280-1144",
+    "address": "6465 Wayzata Blvd, St. Louis Park, MN 55426",
+    "resource_type": "Job Search Website",
+    "tags": ["technology", "IT_jobs", "software", "engineering", "tech_careers"]
+  },
+  {
+    "title": "AngelList (Wellfound)",
+    "description": "Platform connecting startups with talent, investors, and job seekers interested in startup and tech company opportunities.",
+    "website": "https://wellfound.com",
+    "phone": "415-692-5600",
+    "address": "988 Market St, San Francisco, CA 94102",
+    "resource_type": "Job Search Website",
+    "tags": ["startups", "tech_jobs", "entrepreneurship", "venture_capital", "innovation"]
+  },
+  {
+    "title": "AFL-CIO Apprenticeship Program",
+    "description": "Labor federation offering apprenticeship and training programs for union organizers and workers across various trades and industries.",
+    "website": "https://aflcio.org/organizing-apprenticeship",
+    "phone": "202-637-5000",
+    "address": "815 Black Lives Matter Plaza NW, Washington, DC 20006",
+    "resource_type": "Apprenticeship Program",
+    "tags": ["apprenticeship", "union_training", "skilled_trades", "labor", "organizing"]
+  },
+  {
+    "title": "Department of Labor - Apprenticeship Programs",
+    "description": "Federal agency overseeing registered apprenticeship programs nationwide, providing resources for employers and apprentices.",
+    "website": "https://www.apprenticeship.gov",
+    "phone": "877-872-5627",
+    "address": "200 Constitution Ave NW, Washington, DC 20210",
+    "resource_type": "Apprenticeship Program",
+    "tags": ["apprenticeship", "federal_programs", "skilled_trades", "workforce_development", "training"]
+  },
+  {
+    "title": "National Association of Manufacturers (NAM)",
+    "description": "Leading manufacturing trade association representing over 14,000 member companies, offering advocacy, workforce development, and industry resources.",
+    "website": "https://www.nam.org",
+    "phone": "202-637-3000",
+    "address": "733 10th Street NW, Suite 700, Washington, DC 20001",
+    "resource_type": "Trade Organization",
+    "tags": ["manufacturing", "trade_association", "workforce_development", "advocacy", "industry"]
+  },
+  {
+    "title": "Associated General Contractors of America (AGC)",
+    "description": "Premier association for the construction industry, providing training, education, safety programs, and advocacy for contractors.",
+    "website": "https://www.agc.org",
+    "phone": "703-548-3118",
+    "address": "2300 Wilson Blvd, Suite 300, Arlington, VA 22201",
+    "resource_type": "Trade Organization",
+    "tags": ["construction", "contractors", "building_trades", "safety", "advocacy"]
+  },
+  {
+    "title": "International Brotherhood of Electrical Workers (IBEW)",
+    "description": "Labor union representing electrical workers, offering apprenticeship programs, training, and career advancement in electrical trades.",
+    "website": "https://www.ibew.org",
+    "phone": "202-833-7000",
+    "address": "900 7th Street NW, Washington, DC 20001",
+    "resource_type": "Trade Organization",
+    "tags": ["electrical_trades", "apprenticeship", "union", "skilled_trades", "training"]
+  },
+  {
+    "title": "Building and Construction Trades Council",
+    "description": "Alliance of building trades unions providing apprenticeship opportunities and career pathways in construction industries.",
+    "website": "https://www.buildingtrades.org",
+    "phone": "202-347-1461",
+    "address": "815 16th St NW, Washington, DC 20006",
+    "resource_type": "Trade Organization",
+    "tags": ["construction_trades", "apprenticeship", "unions", "building", "skilled_labor"]
+  },
+  {
+    "title": "National Restaurant Association",
+    "description": "Trade association for the restaurant and foodservice industry, offering training programs, certifications, and career resources.",
+    "website": "https://www.restaurant.org",
+    "phone": "202-331-5900",
+    "address": "2055 L Street NW, Suite 700, Washington, DC 20036",
+    "resource_type": "Trade Organization",
+    "tags": ["foodservice", "hospitality", "restaurant", "certification", "training"]
+  },
+  {
+    "title": "American Trucking Associations (ATA)",
+    "description": "Premier trade association for the trucking industry, providing training programs, safety resources, and career advancement opportunities.",
+    "website": "https://www.trucking.org",
+    "phone": "703-838-1700",
+    "address": "950 N Glebe Rd, Suite 210, Arlington, VA 22203",
+    "resource_type": "Trade Organization",
+    "tags": ["trucking", "transportation", "logistics", "CDL_training", "safety"]
+  },
+  {
+    "title": "National Association of Home Builders (NAHB)",
+    "description": "Trade association for the home building industry, offering training, certification programs, and career development in construction.",
+    "website": "https://www.nahb.org",
+    "phone": "202-266-8200",
+    "address": "1201 15th St NW, Washington, DC 20005",
+    "resource_type": "Trade Organization",
+    "tags": ["home_building", "construction", "real_estate", "training", "certification"]
+  },
+  {
+    "title": "United Association of Plumbers and Pipefitters",
+    "description": "Labor union providing apprenticeship and training programs for plumbers, pipefitters, and HVAC technicians across North America.",
+    "website": "https://www.ua.org",
+    "phone": "410-269-2000",
+    "address": "3 Park Pl, Annapolis, MD 21401",
+    "resource_type": "Trade Organization",
+    "tags": ["plumbing", "pipefitting", "HVAC", "apprenticeship", "skilled_trades"]
+  },
+  {
+    "title": "Small Business Administration (SBA)",
+    "description": "Federal agency supporting small businesses through loans, counseling, contracting opportunities, and entrepreneurship programs.",
+    "website": "https://www.sba.gov",
+    "phone": "800-827-5722",
+    "address": "409 3rd St SW, Washington, DC 20416",
+    "resource_type": "Government Business Resource",
+    "tags": ["small_business", "entrepreneurship", "loans", "government", "business_development"]
+  },
+  {
+    "title": "SCORE Business Mentors",
+    "description": "SBA resource partner providing free mentoring, workshops, and resources to help entrepreneurs start and grow successful businesses.",
+    "website": "https://www.score.org",
+    "phone": "800-634-0245",
+    "address": "712 H St NE PMB 98848, Washington, DC 20002",
+    "resource_type": "Business Development Resource",
+    "tags": ["mentoring", "entrepreneurship", "small_business", "business_planning", "free_resources"]
+  },
+  {
+    "title": "Women's Business Centers (WBC)",
+    "description": "SBA-funded centers providing counseling, training, and resources specifically designed to help women entrepreneurs start and grow businesses.",
+    "website": "https://www.sba.gov/local-assistance/resource-partners/womens-business-centers",
+    "phone": "202-430-4756",
+    "address": "10 G Street NE, Suite 600, Washington, DC 20002",
+    "resource_type": "Business Development Resource",
+    "tags": ["women_entrepreneurs", "business_counseling", "small_business", "training", "networking"]
+  },
+  {
+    "title": "Small Business Development Centers (SBDC)",
+    "description": "SBA-funded centers providing free business consulting, training, and technical assistance to entrepreneurs and small business owners.",
+    "website": "https://americassbdc.org",
+    "phone": "202-205-6766",
+    "address": "409 3rd St SW, Suite 6400, Washington, DC 20416",
+    "resource_type": "Business Development Resource",
+    "tags": ["business_consulting", "small_business", "entrepreneurship", "training", "technical_assistance"]
+  },
+  {
+    "title": "Business.gov (SBA Business Portal)",
+    "description": "Government portal providing comprehensive business information, regulations, and resources for starting and operating a business.",
+    "website": "https://www.sba.gov",
+    "phone": "800-827-5722",
+    "address": "409 3rd St SW, Washington, DC 20416",
+    "resource_type": "Government Business Resource",
+    "tags": ["government", "business_information", "regulations", "compliance", "resources"]
+  },
+  {
+    "title": "MINORITY BUSINESS DEVELOPMENT AGENCY (MBDA)",
+    "description": "Federal agency fostering the growth of minority-owned businesses through strategic partnerships, innovative access to capital, and markets.",
+    "website": "https://www.mbda.gov",
+    "phone": "202-482-2332",
+    "address": "1401 Constitution Ave NW, Washington, DC 20230",
+    "resource_type": "Business Development Resource",
+    "tags": ["minority_business", "business_development", "capital_access", "entrepreneurship", "diversity"]
+  },
+  {
+    "title": "Economic Development Administration (EDA)",
+    "description": "Federal agency promoting economic development in distressed communities through grants, technical assistance, and investment programs.",
+    "website": "https://www.eda.gov",
+    "phone": "202-482-5081",
+    "address": "1401 Constitution Ave NW, Washington, DC 20230",
+    "resource_type": "Government Business Resource",
+    "tags": ["economic_development", "grants", "community_development", "investment", "regional_growth"]
+  },
+  {
+    "title": "Veterans Business Outreach Center (VBOC)",
+    "description": "SBA program providing entrepreneurial development services to veterans, service members, and military spouses interested in business ownership.",
+    "website": "https://www.sba.gov/local-assistance/resource-partners/veterans-business-outreach-centers",
+    "phone": "800-827-5722",
+    "address": "409 3rd St SW, Washington, DC 20416",
+    "resource_type": "Business Development Resource",
+    "tags": ["veterans", "military", "entrepreneurship", "business_ownership", "specialized_assistance"]
+  },
+  {
+    "title": "Coursera",
+    "description": "Global online learning platform offering courses, certificates, and degree programs from top universities and companies worldwide.",
+    "website": "https://www.coursera.org",
+    "phone": "650-963-9884",
+    "address": "2440 West El Camino Real, Suite 500, Mountain View, CA 94040",
+    "resource_type": "Learning Platform",
+    "tags": ["online_learning", "certificates", "university_courses", "professional_development", "skill_building"]
+  },
+  {
+    "title": "LinkedIn Learning",
+    "description": "Professional development platform offering business, technology, and creative skills courses taught by industry experts.",
+    "website": "https://learning.linkedin.com",
+    "phone": "844-587-5735",
+    "address": "1000 W Maude Ave, Sunnyvale, CA 94085",
+    "resource_type": "Learning Platform",
+    "tags": ["professional_development", "business_skills", "technology", "creative_skills", "linkedin"]
+  },
+  {
+    "title": "Udemy",
+    "description": "Online learning marketplace with courses on programming, business, design, marketing, and personal development taught by expert instructors.",
+    "website": "https://www.udemy.com",
+    "phone": "415-813-1710",
+    "address": "600 Harrison St, 3rd Floor, San Francisco, CA 94107",
+    "resource_type": "Learning Platform",
+    "tags": ["online_courses", "programming", "business", "design", "skill_development"]
+  },
+  {
+    "title": "CompTIA",
+    "description": "Leading provider of vendor-neutral IT certifications, training, and resources for technology professionals and organizations.",
+    "website": "https://www.comptia.org",
+    "phone": "866-835-8020",
+    "address": "3500 Lacey Rd, Suite 100, Downers Grove, IL 60515",
+    "resource_type": "Certification Program",
+    "tags": ["IT_certification", "technology", "cybersecurity", "networking", "professional_certification"]
+  },
+  {
+    "title": "Salesforce Trailhead",
+    "description": "Free online learning platform offering Salesforce skills training, certifications, and career development resources.",
+    "website": "https://trailhead.salesforce.com",
+    "phone": "800-664-9073",
+    "address": "415 Mission Street, 3rd Floor, San Francisco, CA 94105",
+    "resource_type": "Learning Platform",
+    "tags": ["salesforce", "CRM", "cloud_computing", "certification", "free_learning"]
+  },
+  {
+    "title": "Pluralsight",
+    "description": "Technology skills platform providing hands-on learning experiences, skill assessments, and analytics for individuals and teams.",
+    "website": "https://www.pluralsight.com",
+    "phone": "888-368-1240",
+    "address": "182 N Union Ave, Farmington, UT 84025",
+    "resource_type": "Learning Platform",
+    "tags": ["technology_skills", "software_development", "cloud", "security", "data"]
+  },
+  {
+    "title": "Google Career Certificates",
+    "description": "Professional certificate programs designed to prepare learners for in-demand jobs in high-growth fields like data analytics and UX design.",
+    "website": "https://grow.google/certificates",
+    "phone": "650-253-0000",
+    "address": "1600 Amphitheatre Parkway, Mountain View, CA 94043",
+    "resource_type": "Certification Program",
+    "tags": ["google", "career_certificates", "data_analytics", "UX_design", "job_ready"]
+  },
+  {
+    "title": "AWS Training and Certification",
+    "description": "Cloud computing training and certification programs from Amazon Web Services, covering various AWS technologies and roles.",
+    "website": "https://aws.amazon.com/training",
+    "phone": "206-266-1000",
+    "address": "410 Terry Ave N, Seattle, WA 98109",
+    "resource_type": "Certification Program",
+    "tags": ["AWS", "cloud_computing", "certification", "amazon", "technology"]
+  },
+  {
+    "title": "American Nurses Association (ANA)",
+    "description": "Premier professional organization for registered nurses, offering continuing education, certification, and career advancement resources.",
+    "website": "https://www.nursingworld.org",
+    "phone": "800-284-2378",
+    "address": "8403 Colesville Road, Suite 500, Silver Spring, MD 20910",
+    "resource_type": "Professional Association",
+    "tags": ["nursing", "healthcare", "professional_development", "certification", "continuing_education"]
+  },
+  {
+    "title": "National Association of Realtors (NAR)",
+    "description": "Professional association for real estate professionals, providing education, advocacy, networking, and career development resources.",
+    "website": "https://www.nar.realtor",
+    "phone": "800-874-6500",
+    "address": "430 N Michigan Ave, Chicago, IL 60611-4087",
+    "resource_type": "Professional Association",
+    "tags": ["real_estate", "realtors", "professional_development", "networking", "education"]
+  },
+  {
+    "title": "Society for Human Resource Management (SHRM)",
+    "description": "Global professional association for HR professionals, offering certification, education, networking, and career advancement resources.",
+    "website": "https://www.shrm.org",
+    "phone": "703-548-3440",
+    "address": "1800 Duke St, Alexandria, VA 22314",
+    "resource_type": "Professional Association",
+    "tags": ["human_resources", "HR_certification", "professional_development", "workplace", "management"]
+  },
+  {
+    "title": "American Medical Association (AMA)",
+    "description": "Professional association for physicians and medical students, providing advocacy, education, and practice management resources.",
+    "website": "https://www.ama-assn.org",
+    "phone": "800-262-3211",
+    "address": "AMA Plaza, 330 N Wabash Ave, Suite 39300, Chicago, IL 60611-5885",
+    "resource_type": "Professional Association",
+    "tags": ["medicine", "physicians", "healthcare", "medical_education", "advocacy"]
+  },
+  {
+    "title": "IEEE (Institute of Electrical and Electronics Engineers)",
+    "description": "Professional association for electrical and electronics engineers, offering publications, conferences, standards, and career resources.",
+    "website": "https://www.ieee.org",
+    "phone": "800-678-4333",
+    "address": "3 Park Ave, 17th Floor, New York, NY 10016-5997",
+    "resource_type": "Professional Association",
+    "tags": ["engineering", "technology", "electronics", "professional_development", "standards"]
+  },
+  {
+    "title": "American Bar Association (ABA)",
+    "description": "Professional association for attorneys and law students, providing continuing legal education, career resources, and professional development.",
+    "website": "https://www.americanbar.org",
+    "phone": "312-988-5000",
+    "address": "321 N Clark St, Chicago, IL 60654",
+    "resource_type": "Professional Association",
+    "tags": ["legal", "attorneys", "law", "continuing_education", "professional_development"]
+  },
+  {
+    "title": "American Institute of CPAs (AICPA)",
+    "description": "Professional organization for certified public accountants, offering certification, continuing education, and career advancement resources.",
+    "website": "https://www.aicpa.org",
+    "phone": "888-777-7077",
+    "address": "220 Leigh Farm Rd, Durham, NC 27707",
+    "resource_type": "Professional Association",
+    "tags": ["accounting", "CPA", "finance", "certification", "continuing_education"]
+  },
+  {
+    "title": "Project Management Institute (PMI)",
+    "description": "Global professional association for project managers, offering PMP certification, training, and career development resources.",
+    "website": "https://www.pmi.org",
+    "phone": "610-356-4600",
+    "address": "14 Campus Blvd, Newtown Square, PA 19073-3299",
+    "resource_type": "Professional Association",
+    "tags": ["project_management", "PMP_certification", "professional_development", "training", "career_advancement"]
+  },
+  {
+    "title": "National Association of Social Workers (NASW)",
+    "description": "Professional association for social workers, providing continuing education, advocacy, and career development resources.",
+    "website": "https://www.socialworkers.org",
+    "phone": "202-408-8600",
+    "address": "750 1st St NE, Suite 800, Washington, DC 20002-4241",
+    "resource_type": "Professional Association",
+    "tags": ["social_work", "human_services", "advocacy", "continuing_education", "professional_development"]
+  },
+  {
+    "title": "American Marketing Association (AMA)",
+    "description": "Professional association for marketing professionals, offering certification, education, networking, and career advancement resources.",
+    "website": "https://www.ama.org",
+    "phone": "312-542-9000",
+    "address": "130 E Randolph St, 22nd Floor, Chicago, IL 60601",
+    "resource_type": "Professional Association",
+    "tags": ["marketing", "professional_development", "certification", "networking", "business"]
+  }
+]
